@@ -1,0 +1,16 @@
+﻿Build started 05-06-2018 07:28:16 PM.
+     1>Project "C:\Users\Somesh Thakur\Desktop\System_Task\System_Task.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main_engine.cpp
+         main_engine.cpp
+     1>c:\users\somesh thakur\desktop\system_task\files_systems_api.h(533): warning C4101: 'ch1' : unreferenced local variable
+     1>c:\users\somesh thakur\desktop\system_task\main_engine.cpp(51): warning C4102: 'loop' : unreferenced label
+     1>c:\users\somesh thakur\desktop\system_task\files_systems_api.h(636): warning C4715: 'login' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Somesh Thakur\Desktop\System_Task\Debug\System_Task.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Somesh Thakur\Desktop\System_Task\Debug\System_Task.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Somesh Thakur\Desktop\System_Task\Debug\System_Task.lib" /MACHINE:X86 Debug\main_engine.obj
+         System_Task.vcxproj -> C:\Users\Somesh Thakur\Desktop\System_Task\Debug\System_Task.exe
+     1>Done Building Project "C:\Users\Somesh Thakur\Desktop\System_Task\System_Task.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
